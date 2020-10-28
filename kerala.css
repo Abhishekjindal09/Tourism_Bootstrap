@@ -1,0 +1,209 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  background-color: black;
+  padding: 1% 0%;
+  font-size: 1.2em;
+}
+
+.navbar-brand {
+  min-height: 60px;
+  padding: 10px 5px 10px 35px;
+}
+.navbar-nav li a {
+  color: whitesmoke;
+}
+.navbar-nav li a:hover,
+.navbar-nav li a.active {
+  background-color: cornsilk;
+  color: black;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+#home {
+  background: url("images/Kochi.jpg") no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+.landing-text h1 {
+  font-size: 600%;
+  font-weight: 700;
+}
+.landing-text h3 {
+  font-size: 200%;
+  font-weight: 300;
+}
+#btn1 {
+  font-weight: bold;
+}
+.padding {
+  padding: 100px 10px;
+}
+.padding img {
+  width: 100%;
+  height: 100%;
+}
+#fixed1 {
+  background: url("images/waterfall.jpg") no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+#fixed-text {
+  position: absolute;
+  max-width: 700px;
+  bottom: 120px;
+  right: 10px;
+  text-align: left;
+  color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#fixed-text:hover {
+  background-color: skyblue;
+  border-radius: 15px;
+  transition: 1s;
+}
+#fixed-text h1 {
+  font-size: 400%;
+  font-weight: 500;
+}
+#fixed2 {
+  background: url("images/fishing_boat_at_chowara_34.jpg") no-repeat center
+    center fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+#fixed-text2 {
+  position: absolute;
+  max-width: 700px;
+  bottom: 50px;
+  right: 10px;
+  text-align: left;
+  color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#fixed-text2:hover {
+  background-color: bisque;
+  border-radius: 15px;
+  transition: 1s;
+}
+#fixed-text2 h1 {
+  font-size: 400%;
+  font-weight: 500;
+}
+.bg-img {
+  background: url("images/8342025145_a9ec892cfd_o.jpg") no-repeat center center
+    fixed;
+  display: table;
+  height: 80%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+.container1 {
+  position: absolute;
+  right: 20px;
+  margin: 80px;
+  max-width: 500px;
+  padding: 45px;
+  background-color: transparent;
+}
+.container1 h2 {
+  color: whitesmoke;
+}
+.container1 label {
+  color: whitesmoke;
+}
+footer {
+  background-color: black;
+  padding: 5% 5% 10% 5%;
+  color: azure;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  color: azure;
+}
+.fa:hover {
+  color: cyan;
+  text-decoration: none;
+}
+.icon {
+  max-width: 400px;
+}
+
+@media (max-width: 640px) {
+  .landing-text h1 {
+    font-size: 300%;
+  }
+  .nav-item {
+    padding: 0;
+    font-size: 0.65em;
+  }
+  .landing-text h3 {
+    font-size: 100%;
+  }
+  #fixed-text {
+    position: absolute;
+    max-width: 300px;
+    bottom: 50px;
+    right: 5px;
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #fixed-text h1 {
+    font-size: 150%;
+    font-weight: 250;
+  }
+  #fixed-text2 {
+    position: absolute;
+    max-width: 300px;
+    bottom: 20px;
+    right: 5px;
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #fixed-text2 h1 {
+    font-size: 150%;
+    font-weight: 250;
+  }
+  .container1 {
+    position: absolute;
+    right: 8px;
+    margin: 20px;
+    max-width: 200px;
+    padding: 15px;
+    background-color: transparent;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    color: azure;
+  }
+  .icon {
+    max-width: 200px;
+  }
+}
